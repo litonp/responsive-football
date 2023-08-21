@@ -1,0 +1,98 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* --------
+header start 
+----------*/
+
+.banner h1 {
+    color: #FFFFFF;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 100px;
+}
+
+.banners {
+    display: flex;
+    background-color: #2D25A0;
+}
+
+.banner {
+    text-align: center;
+    width: 50%;
+}
+
+.banner img {
+    max-width: 100%;
+}
+
+/*-------
+ top player
+ ---------- */
+
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+    padding: 40px 100px;
+}
+
+.player {
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.player img {
+    width: 100%;
+
+}
+
+.info h3 {
+    color: #18191F;
+    font-size: 28px;
+}
+
+.info p {
+    color: #6C6C6C;
+    font-size: 18px;
+}
+
+/*---------
+ top-blogs
+ ------------ */
+.blogs {
+    display: flex;
+    padding: 50px 90px;
+}
+
+.blog {
+    text-align: center;
+    width: 50%;
+}
+
+.blog h2 {
+    color: #0A0826;
+    font-size: 48px;
+}
+
+.blog p {
+    color: #6C6C6C;
+    font-size: 16px;
+}
+
+.blog img {
+    max-width: 100%;
+}
+
+.button {
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    padding: 10px;
+    font-size: 16px;
+}
